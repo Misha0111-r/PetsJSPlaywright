@@ -5,7 +5,7 @@ class LoginPage extends BasePage{
     super(page);
     this.loginButton = page.getByText("Login");
     this.loginField = page.locator('//*[@id="login"]');
-    this.passwordField = page.locator('//*[@id="password"]');
+    this.passwordField = page.locator('//*[@id="password"]/input');
     this.submitButton = page.getByText("Submit");
   }
 

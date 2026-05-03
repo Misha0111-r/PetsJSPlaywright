@@ -6,7 +6,7 @@ class BasePage{
     }
 
     async openLink(link){
-        await this.page.goto("http://34.141.58.52:8080/#/");
+        await this.page.goto(link);
     }
 
     async checkPageURL(URL){
